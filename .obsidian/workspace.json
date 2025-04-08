@@ -1,0 +1,237 @@
+{
+  "main": {
+    "id": "f0416abe98f744fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c80d5d3531601c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a20261f10f83f92",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Godot/Menu flow.canvas",
+                "viewState": {
+                  "x": -875.2745799708001,
+                  "y": 950.396089197635,
+                  "zoom": -0.3333333333333334
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Menu flow"
+            }
+          },
+          {
+            "id": "8bb2cf261e11774c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Primary/Stats.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stats"
+            }
+          },
+          {
+            "id": "7f010e716aaa32d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Primary/Stats.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stats"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8d8695375a17271f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b3442eef0c321882",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d305ec2c81968283",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6c203e147daa1f21",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6d1f47bb40f7f6d3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f06ff6b0317e093e",
+    "type": "split",
+    "children": [
+      {
+        "id": "45461cefaf13e3a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "254add0822b82a70",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Primary/Stats.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Stats"
+            }
+          },
+          {
+            "id": "358a441d5a14d478",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Godot/Untitled.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Untitled"
+            }
+          },
+          {
+            "id": "5e9dfb3c02082e70",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "747ccb534056f5e0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Godot/Untitled.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7f010e716aaa32d5",
+  "lastOpenFiles": [
+    "Primary/Menu flow.canvas",
+    "Primary/Story.md",
+    "Primary/Credits.md",
+    "Primary/Stats.md",
+    "Primary/Prompts.md",
+    "Primary/Game Flow.canvas",
+    "Godot/Saving and Loading/SaveLoad flow chart.canvas",
+    "Godot/Saving and Loading/Saving and Loading.md",
+    "Godot/Saving and Loading",
+    "Godot/Saving and Loading/SaverLoader.gd.md",
+    "Untitled Clickers Game/Research names.md",
+    "Untitled Clickers Game/Power System.canvas",
+    "Untitled Clickers Game",
+    "Godot/Contract.md",
+    "Untitled.md",
+    "Images/Pasted image 20250329061350.png",
+    "Images/2.png",
+    "Primary",
+    "Images",
+    "Godot",
+    "How much we miss each other.canvas",
+    "Godot System.canvas",
+    "Why is Robbie the cutest.md",
+    "Why Robbie is the cutest.canvas",
+    "How much we miss each other.md",
+    "www.hello.com.md",
+    "Untitled 1.canvas",
+    "Untitled 1.md",
+    "2025-03-28.md",
+    "2025-03-29.md",
+    "Untitled 2.md",
+    "Welcome.md"
+  ]
+}

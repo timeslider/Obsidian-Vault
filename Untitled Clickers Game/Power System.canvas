@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"a966be9ab8686c7b","x":-640,"y":-280,"width":660,"height":560,"type":"text","text":"# Power Generator: Base\n---\n**Solar**: Produces a constant amount of power if the sun is out\n**Steam**: Produces power if there is a supply of water\n\nAs long as the requirement has been met, then product power\n```\nrequirements: [Array]\n```\n\nThe amount of power to output\n`output: Power`\n\n\n"},
+		{"id":"d7a193b8e33be5b0","x":320,"y":-400,"width":560,"height":300,"type":"text","text":"# Power Generator: Solar\n---\nextends PowerGeneratorBase\n\n```gdscript\n# The amount of sun will change throughout the 'day'\nvar is_in_sun: float\n```\n\n\n"}
+	],
+	"edges":[
+		{"id":"c351f4286ceb8955","fromNode":"a966be9ab8686c7b","fromSide":"right","toNode":"d7a193b8e33be5b0","toSide":"left"}
+	]
+}
