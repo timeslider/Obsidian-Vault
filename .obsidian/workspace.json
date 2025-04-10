@@ -4,56 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "2c80d5d3531601c1",
+        "id": "baa7571778afba11",
         "type": "tabs",
         "children": [
           {
-            "id": "5a20261f10f83f92",
+            "id": "52b18278fdc7a982",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Godot/Menu flow.canvas",
+                "file": "Godot/Saving and Loading/SaveLoad flow chart.canvas",
                 "viewState": {
-                  "x": -875.2745799708001,
-                  "y": 950.396089197635,
-                  "zoom": -0.3333333333333334
+                  "x": 690,
+                  "y": 490,
+                  "zoom": -2.3380118182224385
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Menu flow"
-            }
-          },
-          {
-            "id": "8bb2cf261e11774c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Primary/Stats.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Stats"
-            }
-          },
-          {
-            "id": "7f010e716aaa32d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Primary/Stats.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Stats"
+              "title": "SaveLoad flow chart"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Primary/Stats.md",
+                "file": "Godot/Saving and Loading/SaveLoad flow chart.canvas",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -136,7 +107,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Stats"
+              "title": "Backlinks for SaveLoad flow chart"
             }
           },
           {
@@ -199,25 +170,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7f010e716aaa32d5",
+  "active": "52b18278fdc7a982",
   "lastOpenFiles": [
+    "Godot/Saving and Loading/SaverLoader.gd.md",
+    "Godot/Saving and Loading/Saving and Loading.md",
     "Primary/Menu flow.canvas",
+    "Godot/Saving and Loading/SaveLoad flow chart.canvas",
+    "Godot/Contract.md",
+    "Images/2.png",
+    "Images/Pasted image 20250329061350.png",
+    "Primary/Stats.md",
     "Primary/Story.md",
     "Primary/Credits.md",
-    "Primary/Stats.md",
     "Primary/Prompts.md",
     "Primary/Game Flow.canvas",
-    "Godot/Saving and Loading/SaveLoad flow chart.canvas",
-    "Godot/Saving and Loading/Saving and Loading.md",
     "Godot/Saving and Loading",
-    "Godot/Saving and Loading/SaverLoader.gd.md",
     "Untitled Clickers Game/Research names.md",
     "Untitled Clickers Game/Power System.canvas",
     "Untitled Clickers Game",
-    "Godot/Contract.md",
     "Untitled.md",
-    "Images/Pasted image 20250329061350.png",
-    "Images/2.png",
     "Primary",
     "Images",
     "Godot",

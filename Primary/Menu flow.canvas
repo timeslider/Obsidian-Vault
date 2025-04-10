@@ -1,11 +1,7 @@
 {
 	"nodes":[
+		{"id":"d80cef43c6e7ef94","x":-1328,"y":-1353,"width":250,"height":60,"type":"text","text":""},
 		{"id":"c3138fc16cbf3e63","type":"text","text":"Stage","x":-340,"y":-220,"width":245,"height":166},
-		{"id":"b6b653318cbf8906","type":"text","text":"Load game","x":-1080,"y":-57,"width":250,"height":60},
-		{"id":"234c9b836e615a28","type":"text","text":"Select chapter","x":-1080,"y":40,"width":250,"height":60},
-		{"id":"891482ebf7754b59","type":"text","text":"# Explore\n---\nUnlocked after beating the campaign","x":-1080,"y":136,"width":300,"height":207},
-		{"id":"c809a50172954392","type":"text","text":"# Continue\n---\nOnly show if there is at least one save file","x":-1080,"y":-520,"width":250,"height":206},
-		{"id":"41a0dfae62e6836e","type":"text","text":"# Start\n---\nBegin the story mode","x":-1080,"y":-283,"width":250,"height":159},
 		{"id":"c2ddee4ba87aaf02","type":"text","text":"# Level Stats\n---\nThere are collected during game play and are specific to an individual level\n\n- **Play time**. Starts when given control during a puzzle. Stops on pause, inside menus, etc\n- **Fewest moves taken** For this level, saves the fewest moves taken to solve this puzzle.\n- ","x":280,"y":-1900,"width":500,"height":320},
 		{"id":"d3dd194b0cc3d3ac","type":"text","text":"# Paused\n---\nSuspend background stuff","x":0,"y":-229,"width":260,"height":184},
 		{"id":"a50939a6190db1f5","type":"text","text":"Photo mode","x":220,"y":129,"width":160,"height":60},
@@ -35,14 +31,20 @@
 		{"id":"234ebb96cf549177","type":"text","text":"# GameState\n---\n- Lookup tables (res://)\n- Save files (user://)\n- Default config file (res://)\n- Custom config file (user://)\n- Which save file are we using?\n","x":-1340,"y":-1900,"width":360,"height":320},
 		{"id":"d8a9bf6f5a997194","type":"text","text":"# Global Stats\n---\nThere are collected during game play and are aggregated for all the levels in the game.\n\n- **Total play time**. Starts when given control during a puzzle. Stops on pause, inside menus, etc\n- **Total moves taken**\n- ","x":-860,"y":-1900,"width":500,"height":320},
 		{"id":"a7801e94952b99dc","type":"text","text":"# Enums\n---\n``\nGameState =","x":-280,"y":-1900,"width":420,"height":320},
-		{"id":"f096008f7b87ddaf","type":"text","text":"# Main menu\n---\nCheck for save files\nIf save file exits, add continue buttom to main menu.","x":-1700,"y":-285,"width":250,"height":258},
+		{"id":"f096008f7b87ddaf","type":"text","text":"# Main menu\n---\nCheck for save files\nIf save file exits, add continue buttom\nIf story completed, add explore button","x":-1700,"y":-285,"width":250,"height":288,"color":"4"},
 		{"id":"34827613f775979b","type":"text","text":"# Press any button\n---\nHave \"press any button\" text appear. Slow fade in and out after a while.\n\nIf no config settings says otherwise, use button prompts based on which button was pressed (keyboard, Playstation, XBox).\nOtherwise, use what's in the default config file.","x":-1825,"y":-741,"width":500,"height":324,"color":"4"},
-		{"id":"fcf9406b38c2256c","type":"text","text":"Setting","x":-1080,"y":376,"width":250,"height":60},
-		{"id":"23e0302082b22965","type":"text","text":"Quit to desktop","x":-1080,"y":473,"width":250,"height":60},
-		{"id":"c7a01f8221a5c618","type":"text","text":"Are you sure?","x":-1080,"y":569,"width":250,"height":60},
-		{"id":"0783c735dff6adfd","type":"text","text":"No","x":-1080,"y":729,"width":100,"height":60},
-		{"id":"5c0ce23ef2c4a5ce","type":"text","text":"Yes","x":-930,"y":729,"width":100,"height":60},
-		{"id":"c71bcf2acf7dae95","type":"text","text":"exit_to_desktop()","x":-980,"y":869,"width":200,"height":60}
+		{"id":"fcf9406b38c2256c","type":"text","text":"Setting","x":-1080,"y":376,"width":250,"height":60,"color":"4"},
+		{"id":"23e0302082b22965","type":"text","text":"Quit to desktop","x":-1080,"y":473,"width":250,"height":60,"color":"4"},
+		{"id":"c7a01f8221a5c618","type":"text","text":"Are you sure?","x":-1080,"y":569,"width":250,"height":60,"color":"4"},
+		{"id":"0783c735dff6adfd","type":"text","text":"No","x":-1080,"y":729,"width":100,"height":60,"color":"4"},
+		{"id":"5c0ce23ef2c4a5ce","type":"text","text":"Yes","x":-930,"y":729,"width":100,"height":60,"color":"4"},
+		{"id":"c71bcf2acf7dae95","type":"text","text":"exit_to_desktop()","x":-980,"y":869,"width":200,"height":60,"color":"4"},
+		{"id":"b6b653318cbf8906","type":"text","text":"Load game","x":-1080,"y":-280,"width":250,"height":60,"color":"4"},
+		{"id":"234c9b836e615a28","type":"text","text":"# Select chapter\n---\nOnly show chapters that have been unlocked","x":-1080,"y":-167,"width":250,"height":183,"color":"4"},
+		{"id":"c809a50172954392","type":"text","text":"# Continue\n---\nOnly show if there is at least one save file.\nIf there is more than one save file, then use the most recent one opened.","x":-1080,"y":-833,"width":250,"height":303,"color":"4"},
+		{"id":"41a0dfae62e6836e","type":"text","text":"# Start\n---\nBegin the story mode","x":-1080,"y":-492,"width":250,"height":159,"color":"4"},
+		{"id":"891482ebf7754b59","type":"text","text":"# Explore\n---\nUnlocked after beating the campaign","x":-1080,"y":80,"width":300,"height":207,"color":"4"},
+		{"id":"3f101e13d662cf51","x":-462,"y":849,"width":322,"height":161,"type":"text","text":"# Puzzle explore screen\n---\n"}
 	],
 	"edges":[
 		{"id":"44498ea6c35b0883","fromNode":"c3138fc16cbf3e63","fromSide":"right","toNode":"d3dd194b0cc3d3ac","toSide":"left"},
@@ -95,6 +97,7 @@
 		{"id":"148667154d6af793","fromNode":"ea3291267b6c21f1","fromSide":"right","toNode":"33b8b4df02b1fa19","toSide":"left"},
 		{"id":"5da3762f832912c9","fromNode":"43680a0a7ca7ed27","fromSide":"right","toNode":"33b8b4df02b1fa19","toSide":"left"},
 		{"id":"f2e0940bab86e3eb","fromNode":"c3138fc16cbf3e63","fromSide":"top","toNode":"c9968a36c05fbd80","toSide":"left","label":"On chapter completed"},
-		{"id":"16fcacc8c6e38030","fromNode":"c9968a36c05fbd80","fromSide":"right","toNode":"c3138fc16cbf3e63","toSide":"top","label":"Hold confirm to continue\nTo next chapter"}
+		{"id":"16fcacc8c6e38030","fromNode":"c9968a36c05fbd80","fromSide":"right","toNode":"c3138fc16cbf3e63","toSide":"top","label":"Hold confirm to continue\nTo next chapter"},
+		{"id":"0725d9bd33b28795","fromNode":"891482ebf7754b59","fromSide":"right","toNode":"3f101e13d662cf51","toSide":"top"}
 	]
 }
