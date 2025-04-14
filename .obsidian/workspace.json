@@ -11,17 +11,14 @@
             "id": "52b18278fdc7a982",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Godot/Saving and Loading/JSON method/SaveLoad with JSON flow chart.canvas",
-                "viewState": {
-                  "x": -581.0836909980065,
-                  "y": 729.9371309782241,
-                  "zoom": -0.6666666666666667
-                }
+                "file": "Godot/Naming conventions.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "SaveLoad with JSON flow chart"
+              "icon": "lucide-file",
+              "title": "Naming conventions"
             }
           }
         ]
@@ -97,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Godot/Saving and Loading/JSON method/SaveLoad with JSON flow chart.canvas",
+                "file": "Godot/Naming conventions.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -107,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SaveLoad with JSON flow chart"
+              "title": "Backlinks for Naming conventions"
             }
           },
           {
@@ -172,9 +169,10 @@
   },
   "active": "52b18278fdc7a982",
   "lastOpenFiles": [
+    "Godot/Saving and Loading/JSON method/SaveLoad with JSON flow chart.canvas",
+    "Godot/Naming conventions.md",
     "Godot/Instancing.md",
     "Godot/Contract.md",
-    "Godot/Saving and Loading/JSON method/SaveLoad with JSON flow chart.canvas",
     "Godot/Saving and Loading/Resource method/SaveLoad with Resources flow chart.canvas",
     "Godot/Saving and Loading/Saving and Loading.md",
     "Godot/Saving and Loading/JSON method",
