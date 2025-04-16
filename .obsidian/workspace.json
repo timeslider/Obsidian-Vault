@@ -11,14 +11,17 @@
             "id": "52b18278fdc7a982",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Primary/Main menu.md",
-                "mode": "source",
-                "source": false
+                "file": "Primary/Menu flow.canvas",
+                "viewState": {
+                  "x": -1162.051022407361,
+                  "y": -427.996714068664,
+                  "zoom": -0.7669800241808334
+                }
               },
-              "icon": "lucide-file",
-              "title": "Main menu"
+              "icon": "lucide-layout-dashboard",
+              "title": "Menu flow"
             }
           }
         ]
@@ -94,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Primary/Main menu.md",
+                "file": "Primary/Menu flow.canvas",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +107,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Main menu"
+              "title": "Backlinks for Menu flow"
             }
           },
           {
@@ -169,8 +172,8 @@
   },
   "active": "52b18278fdc7a982",
   "lastOpenFiles": [
-    "Godot/Naming conventions.md",
     "Primary/Main menu.md",
+    "Godot/Naming conventions.md",
     "Godot/Saving and Loading/JSON method/SaveLoad with JSON flow chart.canvas",
     "Godot/Instancing.md",
     "Godot/Contract.md",
