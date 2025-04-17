@@ -1,6 +1,5 @@
-The main menu is heavily inspired by Manifold Garden
+The main menu is heavily inspired by
 
-Press any button
 Continue
 New game
 Load game
