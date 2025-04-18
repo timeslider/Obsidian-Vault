@@ -11,14 +11,17 @@
             "id": "52b18278fdc7a982",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Primary/Settings.md",
-                "mode": "source",
-                "source": false
+                "file": "Godot/Saving and Loading/JSON method/SaveLoad with JSON flow chart.canvas",
+                "viewState": {
+                  "x": -218.19677082293916,
+                  "y": 742.2476891127344,
+                  "zoom": -0.5
+                }
               },
-              "icon": "lucide-file",
-              "title": "Settings"
+              "icon": "lucide-layout-dashboard",
+              "title": "SaveLoad with JSON flow chart"
             }
           }
         ]
@@ -94,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Primary/Settings.md",
+                "file": "Godot/Saving and Loading/JSON method/SaveLoad with JSON flow chart.canvas",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +107,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Settings"
+              "title": "Backlinks for SaveLoad with JSON flow chart"
             }
           },
           {
@@ -169,14 +172,14 @@
   },
   "active": "52b18278fdc7a982",
   "lastOpenFiles": [
-    "Godot/Naming conventions.md",
+    "Godot/Saving and Loading/Saving and Loading.md",
     "Primary/Settings.md",
+    "Godot/Naming conventions.md",
     "Primary/Main menu.md",
     "Godot/Saving and Loading/JSON method/SaveLoad with JSON flow chart.canvas",
     "Godot/Instancing.md",
     "Godot/Contract.md",
     "Godot/Saving and Loading/Resource method/SaveLoad with Resources flow chart.canvas",
-    "Godot/Saving and Loading/Saving and Loading.md",
     "Godot/Saving and Loading/JSON method",
     "Godot/Saving and Loading/SaverLoader.gd.md",
     "Godot/Saving and Loading/Resource method",
