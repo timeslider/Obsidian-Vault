@@ -1,4 +1,4 @@
-Number of boards
+Number of board layout
 ```csharp
 51016818604894742
 ```
