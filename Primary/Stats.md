@@ -1,3 +1,8 @@
+---
+tags:
+  - max_polyomino
+---
+
 Number of board layout
 ```csharp
 51016818604894742

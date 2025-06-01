@@ -25,17 +25,14 @@
             "id": "d35be37467d329a0",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Primary/Menu flow.canvas",
-                "viewState": {
-                  "x": -1124.3395331514116,
-                  "y": -671.558660617411,
-                  "zoom": -0.7536212482531663
-                }
+                "file": "Primary/Stats.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Menu flow"
+              "icon": "lucide-file",
+              "title": "Stats"
             }
           }
         ],
@@ -112,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Primary/Menu flow.canvas",
+                "file": "Primary/Stats.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -122,7 +119,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Menu flow"
+              "title": "Backlinks for Stats"
             }
           },
           {
@@ -187,8 +184,8 @@
   },
   "active": "d35be37467d329a0",
   "lastOpenFiles": [
-    "Primary/Menu phone.canvas",
     "Primary/Menu flow.canvas",
+    "Primary/Menu phone.canvas",
     "Primary/Stats.md",
     "Primary/Glossary.md",
     "Primary/Credits.md",
