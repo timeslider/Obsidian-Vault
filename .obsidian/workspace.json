@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Primary/Stats.md",
+                "file": "Primary/Credits.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stats"
+              "title": "Credits"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Primary/Stats.md",
+                "file": "Primary/Credits.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Stats"
+              "title": "Backlinks for Credits"
             }
           },
           {
@@ -184,9 +184,9 @@
   },
   "active": "d35be37467d329a0",
   "lastOpenFiles": [
+    "Primary/Stats.md",
     "Primary/Menu flow.canvas",
     "Primary/Menu phone.canvas",
-    "Primary/Stats.md",
     "Primary/Glossary.md",
     "Primary/Credits.md",
     "Primary/Main menu.md",
