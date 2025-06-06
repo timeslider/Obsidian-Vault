@@ -19,3 +19,5 @@ Number of board layout
 
 It took 4 minutes to get 0.00020855867% the way finished.
 240 seconds to get 0.00020855867%
+
+It would take 236188975022.66086 hours to watch all of them at 60 fps

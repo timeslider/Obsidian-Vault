@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"d80cef43c6e7ef94","x":-1328,"y":-1353,"width":250,"height":60,"type":"text","text":""},
+		{"id":"d80cef43c6e7ef94","type":"text","text":"","x":-1328,"y":-1353,"width":250,"height":60},
 		{"id":"c3138fc16cbf3e63","type":"text","text":"Stage","x":-340,"y":-220,"width":245,"height":166},
 		{"id":"c2ddee4ba87aaf02","type":"text","text":"# Level Stats\n---\nThere are collected during game play and are specific to an individual level\n\n- **Play time**. Starts when given control during a puzzle. Stops on pause, inside menus, etc\n- **Fewest moves taken** For this level, saves the fewest moves taken to solve this puzzle.\n- ","x":280,"y":-1900,"width":500,"height":320},
 		{"id":"d3dd194b0cc3d3ac","type":"text","text":"# Paused\n---\nSuspend background stuff","x":0,"y":-229,"width":260,"height":184},
@@ -44,7 +44,9 @@
 		{"id":"c809a50172954392","type":"text","text":"# Continue\n---\nOnly show if there is at least one save file.\nIf there is more than one save file, then use the most recent one opened.","x":-1080,"y":-833,"width":250,"height":303,"color":"4"},
 		{"id":"41a0dfae62e6836e","type":"text","text":"# Start\n---\nBegin the story mode","x":-1080,"y":-492,"width":250,"height":159,"color":"4"},
 		{"id":"891482ebf7754b59","type":"text","text":"# Explore\n---\nUnlocked after beating the campaign","x":-1080,"y":80,"width":300,"height":207,"color":"4"},
-		{"id":"3f101e13d662cf51","x":-462,"y":849,"width":322,"height":161,"type":"text","text":"# Puzzle explore screen\n---\n"}
+		{"id":"3f101e13d662cf51","type":"text","text":"# Puzzle explore screen\n---\n","x":-462,"y":849,"width":322,"height":161},
+		{"id":"cebd253981c0c1da","type":"text","text":"# Auto loads","x":15,"y":-2060,"width":250,"height":60},
+		{"id":"5d8ab1fd4e8c4ce4","x":1620,"y":-1900,"width":580,"height":320,"type":"text","text":"# Puzzle Select\n---\n- Polyomino index\n- Player tiles index\n- Goal tiles index"}
 	],
 	"edges":[
 		{"id":"44498ea6c35b0883","fromNode":"c3138fc16cbf3e63","fromSide":"right","toNode":"d3dd194b0cc3d3ac","toSide":"left"},

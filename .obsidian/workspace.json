@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Primary/Credits.md",
+                "file": "Primary/Shaders.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Credits"
+              "title": "Shaders"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Primary/Credits.md",
+                "file": "Primary/Shaders.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Credits"
+              "title": "Backlinks for Shaders"
             }
           },
           {
@@ -184,11 +184,15 @@
   },
   "active": "d35be37467d329a0",
   "lastOpenFiles": [
-    "Primary/Stats.md",
+    "Primary/Inspiration.md",
+    "Primary/Shaders.md",
+    "Primary/Favorites.md",
+    "Programing Patterns/State.md",
     "Primary/Menu flow.canvas",
     "Primary/Menu phone.canvas",
-    "Primary/Glossary.md",
+    "Primary/Stats.md",
     "Primary/Credits.md",
+    "Primary/Glossary.md",
     "Primary/Main menu.md",
     "Primary/Settings.md",
     "Primary/Prompts.md",
@@ -201,7 +205,6 @@
     "quantum string.md",
     "Untitled Clicker Game/Tech Tree.canvas",
     "LICENSE.md",
-    "Programing Patterns/State.md",
     "Godot/Saving and Loading/JSON method/SaveLoad with JSON flow chart.canvas",
     "Programing Patterns",
     "Godot/Saving and Loading/Saving and Loading.md",
@@ -226,8 +229,6 @@
     "Why is Robbie the cutest.md",
     "Why Robbie is the cutest.canvas",
     "How much we miss each other.md",
-    "www.hello.com.md",
-    "Untitled 1.md",
-    "2025-03-28.md"
+    "www.hello.com.md"
   ]
 }
