@@ -22,14 +22,12 @@
 		{"id":"43680a0a7ca7ed27","type":"text","text":"# Controls\n---\nShow controls and allow remapping","x":600,"y":1770,"width":360,"height":200},
 		{"id":"ea3291267b6c21f1","type":"text","text":"# Audio\n---\nMaster\nDialogue (Voice over)\nMusic\nSound effects (Sliding, menu UI sounds)\nAmbient (room noise)","x":600,"y":1430,"width":360,"height":280},
 		{"id":"b5c1939609a4b84a","type":"text","text":"# Graphics\n---\nFigure out what all you can expose from the engine","x":600,"y":1210,"width":360,"height":180},
-		{"id":"53bf1d9da4779575","type":"text","text":"# Gameplay\n---\n- Button prompts (auto, Playstation, XBox)\n- Color blindness\n- Color select (Let the user define their one colors. Can't let them select similar colors)\n","x":600,"y":880,"width":360,"height":262},
+		{"id":"53bf1d9da4779575","type":"text","text":"# Gameplay\n---\n- Button prompts (auto, Playstation, XBox)\n- Color blindness\n- Color select (Let the user define their one colors. Can't let them select similar colors)\n","x":600,"y":823,"width":360,"height":319},
 		{"id":"0404b316d6482155","type":"text","text":"# Util\n---\nMove logic\n","x":900,"y":-1900,"width":640,"height":320},
-		{"id":"c5ffaf10caa39c1f","type":"text","text":"Pause menu","x":1680,"y":1270,"width":250,"height":60},
 		{"id":"33b8b4df02b1fa19","type":"text","text":"Back","x":1300,"y":1270,"width":250,"height":60},
 		{"id":"c9968a36c05fbd80","type":"text","text":"# Chapter completed\n---\nShow level completed screen\nShow ranking\nShow stats","x":-70,"y":-1340,"width":380,"height":228},
-		{"id":"778fd4f620c3d1f7","type":"text","text":"# Level completed\n---\nShow ranking\nShow stats","x":600,"y":-772,"width":380,"height":228},
 		{"id":"234ebb96cf549177","type":"text","text":"# GameState\n---\n- Lookup tables (res://)\n- Save files (user://)\n- Default config file (res://)\n- Custom config file (user://)\n- Which save file are we using?\n","x":-1340,"y":-1900,"width":360,"height":320},
-		{"id":"d8a9bf6f5a997194","type":"text","text":"# Global Stats\n---\nThere are collected during game play and are aggregated for all the levels in the game.\n\n- **Total play time**. Starts when given control during a puzzle. Stops on pause, inside menus, etc\n- **Total moves taken**\n- ","x":-860,"y":-1900,"width":500,"height":320},
+		{"id":"d8a9bf6f5a997194","type":"text","text":"# Global Stats\n---\nThere are collected during game play and are aggregated for all the levels in the game.\n\n- **Total play time**. Starts when given control during a puzzle. Stops on pause, inside menus, etc\n- **Total moves taken**\n- Total puzzles played\n-  ","x":-860,"y":-1900,"width":500,"height":320},
 		{"id":"a7801e94952b99dc","type":"text","text":"# Enums\n---\n``\nGameState =","x":-280,"y":-1900,"width":420,"height":320},
 		{"id":"f096008f7b87ddaf","type":"text","text":"# Main menu\n---\nCheck for save files\nIf save file exits, add continue buttom\nIf story completed, add explore button","x":-1700,"y":-285,"width":250,"height":288,"color":"4"},
 		{"id":"34827613f775979b","type":"text","text":"# Press any button\n---\nHave \"press any button\" text appear. Slow fade in and out after a while.\n\nIf no config settings says otherwise, use button prompts based on which button was pressed (keyboard, Playstation, XBox).\nOtherwise, use what's in the default config file.","x":-1825,"y":-741,"width":500,"height":324,"color":"4"},
@@ -44,9 +42,15 @@
 		{"id":"c809a50172954392","type":"text","text":"# Continue\n---\nOnly show if there is at least one save file.\nIf there is more than one save file, then use the most recent one opened.","x":-1080,"y":-833,"width":250,"height":303,"color":"4"},
 		{"id":"41a0dfae62e6836e","type":"text","text":"# Start\n---\nBegin the story mode","x":-1080,"y":-492,"width":250,"height":159,"color":"4"},
 		{"id":"891482ebf7754b59","type":"text","text":"# Explore\n---\nUnlocked after beating the campaign","x":-1080,"y":80,"width":300,"height":207,"color":"4"},
-		{"id":"3f101e13d662cf51","type":"text","text":"# Puzzle explore screen\n---\n","x":-462,"y":849,"width":322,"height":161},
 		{"id":"cebd253981c0c1da","type":"text","text":"# Auto loads","x":15,"y":-2060,"width":250,"height":60},
-		{"id":"5d8ab1fd4e8c4ce4","x":1620,"y":-1900,"width":580,"height":320,"type":"text","text":"# Puzzle Select\n---\n- Polyomino index\n- Player tiles index\n- Goal tiles index"}
+		{"id":"5d8ab1fd4e8c4ce4","type":"text","text":"# PuzzleSelectGlobal\n---\n- Layout\n- Players\n- Goals","x":1620,"y":-1900,"width":580,"height":320},
+		{"id":"3f101e13d662cf51","type":"text","text":"# Puzzle explore screen\n---\n","x":1160,"y":-1403,"width":460,"height":383},
+		{"id":"61383bda512fbbae","type":"text","text":"# Select a layout\n---\nA layout is a polyomino. It can be accessed globally using `SelectPuzzleGlobal.layout`","x":1727,"y":-1403,"width":322,"height":280},
+		{"id":"7e358130c338b895","type":"text","text":"# is_playable()\n---\nRight after selecting a layout, we need to check if this layout is actually playable. `is_playable` needs to check for this like number of empty tiles since it probably won't be a good puzzle if there are too many tiles.\n","x":2200,"y":-1403,"width":350,"height":350},
+		{"id":"4394fc36fe8f967f","type":"text","text":"# Set initial state and get all states\n---\nSome time after selecting a layout, some code needs to run to set the initial state and get all the states.\n\nThis will be used to select the player and goal starting positions.","x":2700,"y":-1403,"width":322,"height":330},
+		{"id":"e329a08f604992c5","type":"text","text":"# Select a player layout\n---\n","x":3180,"y":-1403,"width":322,"height":280},
+		{"id":"72ea97b2e83a542d","type":"text","text":"# Select a player layout\n---\n","x":3640,"y":-1403,"width":322,"height":280},
+		{"id":"778fd4f620c3d1f7","type":"text","text":"# Level completed\n---\nShow ranking\nShow stats","x":295,"y":-850,"width":380,"height":228}
 	],
 	"edges":[
 		{"id":"44498ea6c35b0883","fromNode":"c3138fc16cbf3e63","fromSide":"right","toNode":"d3dd194b0cc3d3ac","toSide":"left"},
@@ -60,7 +64,6 @@
 		{"id":"919138a55d613f40","fromNode":"ad2c1f6983980263","fromSide":"bottom","toNode":"b5c1939609a4b84a","toSide":"left"},
 		{"id":"c3a4a972b8308edc","fromNode":"ad2c1f6983980263","fromSide":"bottom","toNode":"ea3291267b6c21f1","toSide":"left"},
 		{"id":"32eb7ee9baa8e9a6","fromNode":"ad2c1f6983980263","fromSide":"bottom","toNode":"43680a0a7ca7ed27","toSide":"left"},
-		{"id":"bfddfa3bdd2133f0","fromNode":"33b8b4df02b1fa19","fromSide":"right","toNode":"c5ffaf10caa39c1f","toSide":"left"},
 		{"id":"976451ef74da4df9","fromNode":"43d620531d432139","fromSide":"bottom","toNode":"cf089316b8182952","toSide":"top"},
 		{"id":"4442a039a1a4978e","fromNode":"34827613f775979b","fromSide":"bottom","toNode":"f096008f7b87ddaf","toSide":"top"},
 		{"id":"8f7fc2d70669f1ed","fromNode":"f096008f7b87ddaf","fromSide":"right","toNode":"c809a50172954392","toSide":"left"},
@@ -100,6 +103,14 @@
 		{"id":"5da3762f832912c9","fromNode":"43680a0a7ca7ed27","fromSide":"right","toNode":"33b8b4df02b1fa19","toSide":"left"},
 		{"id":"f2e0940bab86e3eb","fromNode":"c3138fc16cbf3e63","fromSide":"top","toNode":"c9968a36c05fbd80","toSide":"left","label":"On chapter completed"},
 		{"id":"16fcacc8c6e38030","fromNode":"c9968a36c05fbd80","fromSide":"right","toNode":"c3138fc16cbf3e63","toSide":"top","label":"Hold confirm to continue\nTo next chapter"},
-		{"id":"0725d9bd33b28795","fromNode":"891482ebf7754b59","fromSide":"right","toNode":"3f101e13d662cf51","toSide":"top"}
+		{"id":"0725d9bd33b28795","fromNode":"891482ebf7754b59","fromSide":"right","toNode":"3f101e13d662cf51","toSide":"left"},
+		{"id":"6d520d3f1259d101","fromNode":"f096008f7b87ddaf","fromSide":"right","toNode":"891482ebf7754b59","toSide":"left"},
+		{"id":"1370f44b6123c1f1","fromNode":"3f101e13d662cf51","fromSide":"right","toNode":"61383bda512fbbae","toSide":"left"},
+		{"id":"9dbe883731c79866","fromNode":"61383bda512fbbae","fromSide":"right","toNode":"7e358130c338b895","toSide":"left"},
+		{"id":"766f90a6396c6227","fromNode":"7e358130c338b895","fromSide":"right","toNode":"4394fc36fe8f967f","toSide":"left"},
+		{"id":"0285b2075cdafa54","fromNode":"4394fc36fe8f967f","fromSide":"right","toNode":"e329a08f604992c5","toSide":"left"},
+		{"id":"22083ba236df23f1","fromNode":"e329a08f604992c5","fromSide":"right","toNode":"72ea97b2e83a542d","toSide":"left"},
+		{"id":"de8416c5b420f3c2","fromNode":"72ea97b2e83a542d","fromSide":"bottom","toNode":"c3138fc16cbf3e63","toSide":"top"},
+		{"id":"99cf19c06480fab0","fromNode":"33b8b4df02b1fa19","fromSide":"right","toNode":"252d52aaf6dd69ed","toSide":"bottom"}
 	]
 }

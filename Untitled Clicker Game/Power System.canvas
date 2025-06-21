@@ -1,9 +1,12 @@
 {
 	"nodes":[
-		{"id":"a966be9ab8686c7b","x":-640,"y":-280,"width":660,"height":560,"type":"text","text":"# Power Generator: Base\n---\n**Solar**: Produces a constant amount of power if the sun is out\n**Steam**: Produces power if there is a supply of water\n\nAs long as the requirement has been met, then product power\n```\nrequirements: [Array]\n```\n\nThe amount of power to output\n`output: Power`\n\n\n"},
-		{"id":"d7a193b8e33be5b0","x":320,"y":-400,"width":560,"height":300,"type":"text","text":"# Power Generator: Solar\n---\nextends PowerGeneratorBase\n\n```gdscript\n# The amount of sun will change throughout the 'day'\nvar is_in_sun: float\n```\n\n\n"}
+		{"id":"a966be9ab8686c7b","type":"text","text":"# Power Generator: Base\n---\n**Solar**: Produces a constant amount of power if the sun is out\n**Steam**: Produces power if there is a supply of water\n\nAs long as the requirement has been met, then product power. Example\n``` gdscript\nvar requirements: Array\n```\n\nThe amount of power to output\n`output: Power`\n\n``` gdscript\n## Power factor is a number between 0 and 1\nstatic var power_factor: float\n```\n\n","x":-640,"y":-280,"width":660,"height":560},
+		{"id":"d7a193b8e33be5b0","type":"text","text":"# Power Generator: Solar\n---\nextends PowerGeneratorBase\n\n```gdscript\n# The amount of sun will change throughout the 'day'\nvar is_in_sun: float\n```\n\n\n","x":320,"y":-400,"width":560,"height":300},
+		{"id":"1c6fd9a6aa6985be","type":"text","text":"# Solar Wind Turbine\n---\nNo requirements\nGloble wind var that is constantly changing","x":320,"y":40,"width":560,"height":320},
+		{"id":"15428fa65d1a53aa","type":"text","text":"# Fission Reactor\n---\n```gdscript\nvar requirments: Array = [Uranium_236 or Plutonium_239]\n```","x":320,"y":480,"width":540,"height":320}
 	],
 	"edges":[
-		{"id":"c351f4286ceb8955","fromNode":"a966be9ab8686c7b","fromSide":"right","toNode":"d7a193b8e33be5b0","toSide":"left"}
+		{"id":"c351f4286ceb8955","fromNode":"a966be9ab8686c7b","fromSide":"right","toNode":"d7a193b8e33be5b0","toSide":"left"},
+		{"id":"b90b9e569ef93aae","fromNode":"a966be9ab8686c7b","fromSide":"right","toNode":"1c6fd9a6aa6985be","toSide":"left"}
 	]
 }

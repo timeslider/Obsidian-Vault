@@ -11,3 +11,25 @@ You order ores. Wait for them to be delivered. Once acquired, convert them into 
 # How to beat the game
 You're ultimate goal is to craft a fuel to speed your ship up to light speed. The faster you go, the more
 
+
+# Money
+The main currency in the game. Used to buy stuff.
+# Power
+Determines how fast machines can run. First, a `power factor` is calculated which is equal to
+The total available power / total power consumed
+
+$$\frac{\operatorname{Total available power}}{\operatorname{Total power consumed}}$$
+When $\operatorname{power factor} \geq 1$, all machines run at a normal speed. When $\operatorname{power factor} < 1$, they'll run at: $$\operatorname{desired speed} \times \operatorname{power factor}$$
+`power_factor` should be clamped between 0 and 1.
+```
+clamp(power_factor, 0.0, 1.0)
+```
+
+It should only be updated when you buy or sell something and not be recalculated each frame.
+
+# Research
+
+# Quantum String
+# Weight
+# Speed
+# Time
