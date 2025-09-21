@@ -2,7 +2,7 @@
 Used to lock the state of a button and persists between time loops.
 
 
-I'm not sure if I'll use these
+Actually, instead of red science, blue science, etc, we can have these things. 
 # Celestial Modules
 - Conveys a modular, space-born resource fueling research.
 # Stellar Data Nodes
