@@ -1,0 +1,52 @@
+## 🌱 Early-Stage Messages (Strangers → Acquaintances)
+- **Awkward Text** (“hey…”)
+- **Small Talk** (“nice weather today”)
+- **Basic Text** (neutral conversation)
+- **Inquiry** (learn something about them, “what’s your favorite…?”)
+- **Observation** (comment on something you saw, “you were at the café earlier right?”)
+---
+## 🌼 Friendship Messages (Friends → Close Friends)
+- **Casual Joke** (light humor)
+- **Meme Drop** (share a funny pic/gif)
+- **Check-In** (“you good?” / “how’s your day?”)
+- **Supportive Message** (“you’ll do great on your test tomorrow”)
+- **Inside Joke** (special boost if unlocked from shared experience)
+---
+## 🌹 Romantic Spark Messages (Crush → Dating)
+- **Flirty Text** (playful compliment, teasing)
+- **Heart Emoji Send** ❤️
+- **Compliment** (“you look amazing”)
+- **Daydream Share** (“wish you were here with me”)
+- **Late-Night Text** (adds risk/reward tension)
+---
+## 🔥 Deep Romance Messages (Dating → Lovers → Partners)
+- **Selfie Send** (medium risk early, huge reward later)
+- **Good Morning / Good Night** streak messages 🌞🌙
+- **Voice Message** (higher intimacy unlock)
+- **Pet Name Texts** (“babe,” “love”)
+- **Plans Together** (“let’s go on a trip sometime”)
+- **Confession / Vulnerability** (huge point swing depending on timing)
+---
+## 💍 Commitment Messages (Fiancé → Soulmate)
+- **Future Planning** (“I want us to grow old together”)
+- **Photo Album Share** (memories, throwbacks)
+- **Life Update** (career, family, big things)
+- **Declaration of Love** (endgame multiplier)
+- **Shared Secret** (ultimate trust unlock)
+---
+## ⚡ Hostile Path Messages (Annoyance → Rival → Mortal Enemy)
+- **Awkward Spam** (“heyheyheyheyhey”)
+- **Cringe Pickup Line** (too early use = downgrade)
+- **Petty Remark** (“wow you took long enough to reply”)
+- **Mocking Message** (light insult, Rival path)
+- **Call-Out Text** (“you always ignore me”)
+- **Sarcastic Clapback** (escalates tension)
+- **Direct Insult** (full Enemy path)
+- **Challenge / Threat** (“don’t ever text me again”)
+- **Mortal Enemy Taunt** (endgame hostile move)
+---
+## 🔀 Neutral / Alternative Branches
+- **Ghost Text** (you say something and they never reply)
+- **Friendzone Message** (“you’re like a sibling to me”)
+- **Apology Text** (can repair damage but weak effect)
+- **Respect Message** (“I see you as a worthy rival”)
