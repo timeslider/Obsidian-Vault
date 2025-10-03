@@ -3,5 +3,8 @@ The Rize Tree improves your stats and makes progression easier. In the beginning
 - Glow up, make over (0/1)
 	- Reduces annoyance
 - Cub special (0/5)
+	- Increases points gained from reactions
+- Charizzma
 	- Increase your chance of getting a positive reaction
-- 
+
+
