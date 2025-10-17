@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"cef41e93f887f251","type":"text","text":"Cycle Setting","x":-40,"y":-160,"width":250,"height":60},
+		{"id":"b6f90740e101678d","x":-140,"y":120,"width":440,"height":600,"type":"text","text":"# Setting (base class)\n---\n``` GDScript\nclass_name Setting\nextends HBoxContainer\n\nsignal updated(setting_name: StringName, setting_value: Variant)\n\n## This is the name of the setting\n@export var setting_name: StringName\n\n## A reference to the label that displays the name of this setting\n@onready var setting_label: Label = $SettingLabel\n\n## The default value this option will get. Gets set in the ready func (parent class)\nvar option_default_value: Variant\n\n\nfunc _ready() -> void:\n\tadd_to_group(\"setting\")\n\tsetting_label.text = setting_name\n\n\nfunc reset_to_default() -> void:\n\tpass\n```"}
+	],
+	"edges":[]
+}

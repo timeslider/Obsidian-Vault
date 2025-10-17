@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"84bf6f6125dd404b","type":"text","text":"# NPC\n---\n### Member variables\nfirst\\_name: StringName\n\nlast\\_name: StringName\n\nmiddle\\_initial: StringName, could be empty\n\nage: int \\[18, 99\\]\n\nheight: float \\[centimeters\\] can use convert_height_to_imperial to convert it to feet and inches\n\nweight: float \\[Kg\\]\n\nlocation\\_street: StringName\n\nlocation\\_ ... might have to look into this more or create some fantasy world\n\nfriendship_tier: int \\[-10,10\\]\n\nfriendship_percentage: float \\[0, 1\\)\n\nannoyance_percentage: float \\[0, 1\\]\n\npreferences: Dictionary\\[Hobby, float\\] # The float can range between -1 and 1 where -1 means they hate something, 0 is neutral, and 1 means they love it.\n\ntyping\\_speed: int # When sending a message, how long it takes them to type the message\n\ntyping\\_accurracy: float \\[0.0, 1.0\\] How often they make a mistake while typing\n\nread\\_speed: int # How fast they can read messages you send. Acts as a delay between you sending a message and them responding to it, if they respond at all.\n\nschedule: Schedule # Custom class used to model if they are online or not. If they're not online, there's a chance they might look at your messages, but it depends on your friendship level\n\n\n### Functions\nconvert_height_to_imperial()","x":-360,"y":120,"width":640,"height":1160},
+		{"id":"355d6cd7112b6761","x":-980,"y":1060,"width":340,"height":420,"type":"text","text":"# Schedule\n---\n## Member variables\n\n## Functions\n"}
+	],
+	"edges":[
+		{"id":"3ac15ec5ae969c41","fromNode":"355d6cd7112b6761","fromSide":"right","toNode":"84bf6f6125dd404b","toSide":"left","label":"Has-a"}
+	]
+}

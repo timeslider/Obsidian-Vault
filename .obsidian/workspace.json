@@ -53,18 +53,20 @@
             "id": "288cd0cb288f57da",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Godot/Naming conventions.md",
-                "mode": "source",
-                "source": false
+                "file": "Dating Clicker Game/Architecture.canvas",
+                "viewState": {
+                  "x": -445.62556403034273,
+                  "y": 966.8349084875867,
+                  "zoom": -0.3333333333333334
+                }
               },
-              "icon": "lucide-file",
-              "title": "Naming conventions"
+              "icon": "lucide-layout-dashboard",
+              "title": "Architecture"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -212,18 +214,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "288cd0cb288f57da",
+  "active": "52b18278fdc7a982",
   "lastOpenFiles": [
+    "Dating Clicker Game/Message Types.md",
+    "Dating Clicker Game/Upgrade Button.md",
+    "Dating Clicker Game/Architecture.canvas",
+    "Godot/GDScript class order.md",
+    "Godot/Naming conventions.md",
+    "YouTube/Modular Settings Button/Untitled.canvas",
+    "YouTube/Modular Settings Button",
+    "YouTube",
     "Godot/Instancing.md",
     "Dating Clicker Game/Friendship.md",
-    "Godot/Naming conventions.md",
-    "Dating Clicker Game/Upgrade Button.md",
     "Dating Clicker Game/Rizz Tree.md",
     "Dating Clicker Game/Girl-Guy Level.md",
     "Godot/Pixel Art Tips.md",
     "any-idea-why-a-pixel-font-might-get-off-by-one-pixel-v0-dgc775x6a3rf1.webp",
     "Dating Clicker Game/ChatGPT.md",
-    "Dating Clicker Game/Message Types.md",
     "Dating Clicker Game/Minimum Viable Product.md",
     "Godot/Panel vs Panel Container.md",
     "Godot/Contract.md",
@@ -245,9 +252,7 @@
     "Godot/Saving and Loading/JSON method/SaveLoad with JSON flow chart.canvas",
     "Factory Clicker Game/Big.gd.md",
     "Sinty/Prompts.md",
-    "Untitled.md",
     "Sinty",
-    "README.md",
     "Images/Pasted image 20250329061350.png",
     "Images/2.png",
     "Factory Clicker Game/Game Design Document/Research.canvas",
@@ -258,10 +263,6 @@
     "Primary/Menu phone.canvas",
     "Programing Patterns",
     "Godot/Saving and Loading/Resource method/SaveLoad with Resources flow chart.canvas",
-    "Godot/Saving and Loading/JSON method",
-    "Godot/Saving and Loading/Resource method",
-    "Primary/Game Flow.canvas",
-    "Godot/Saving and Loading",
-    "How much we miss each other.canvas"
+    "Godot/Saving and Loading/JSON method"
   ]
 }
